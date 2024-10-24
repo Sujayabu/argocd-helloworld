@@ -11,9 +11,9 @@ spec:
     metadata:
       labels:
         app: argocd-hw-app
-      spec:
-        containers:
-        - name: argocd-hw-app
-          image: sujayabu/myhelloworldimage:v1
-          ports:
-          - containerPort: 5000
+    spec:
+      containers:
+      - name: argocd-hw-app
+        image: sujayabu/myhelloworldimage:v1
+        ports:
+        - containerPort: 5000
