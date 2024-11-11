@@ -4,7 +4,7 @@ metadata:
   name: argocd-hw-app
   namespace: default
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: argocd-hw-app
